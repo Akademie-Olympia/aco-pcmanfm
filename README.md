@@ -6,7 +6,7 @@ Ansichts-, Fenster- und Bedienungseinstellungen für den grafischen Dateimanager
 [Installation und Updates](https://arch-dotfiles.readthedocs.io/en/latest/arch-package/)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/MichaelWeissDEV/dotfiles/main/install.sh | bash -s -- pcmanfm
+curl -fsSL https://raw.githubusercontent.com/Akademie-Olympia/aco-dotfiles/main/install.sh | bash -s -- pcmanfm
 ```
 
 Paket: `arch-dotfiles-pcmanfm`. Datei: `~/.config/pcmanfm/default/pcmanfm.conf`.
@@ -20,6 +20,6 @@ Registry-Build mit `sudo pacman -Syu` aktualisieren. [PACKAGING.md](PACKAGING.md
 
 Eigene Änderungen in der aktivierten Benutzerkopie bleiben bei der Synchronisierung erhalten; neue abweichende Vorgaben erscheinen als `.pacnew`. Siehe [Update und Wiederherstellung](https://arch-dotfiles.readthedocs.io/en/latest/verification/).
 
-[![Package safety](https://github.com/MichaelWeissDEV/pcmanfm-config/actions/workflows/package.yml/badge.svg)](https://github.com/MichaelWeissDEV/pcmanfm-config/actions/workflows/package.yml)
+[![Package safety](https://github.com/Akademie-Olympia/aco-pcmanfm/actions/workflows/package.yml/badge.svg)](https://github.com/Akademie-Olympia/aco-pcmanfm/actions/workflows/package.yml)
 
 [MIT-Lizenz](LICENSE).
