@@ -6,8 +6,8 @@ pkgdesc='PCManFM file manager configuration'
 arch=('any')
 url='https://github.com/Akademie-Olympia/aco-arch-dotfiles'
 license=('LicenseRef-arch-dotfiles-bundle')
-depends=('aco-arch-dotfiles-core>=0.3.0' 'pcmanfm' 'aco-arch-dotfiles-libfm' 'aco-arch-dotfiles-gtk-3.0')
-optdepends=()
+depends=('aco-arch-dotfiles-core>=0.3.0' 'pcmanfm' 'aco-arch-dotfiles-libfm' 'aco-arch-dotfiles-gtk-3.0' 'gvfs' 'udisks2')
+optdepends=('ffmpegthumbnailer: video thumbnails')
 replaces=('arch-dotfiles-pcmanfm')
 conflicts=('arch-dotfiles-pcmanfm')
 options=('!strip')
